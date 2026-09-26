@@ -1,0 +1,75 @@
+
+# Python
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Django static/media
+staticfiles/
+media/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# ChromaDB / Vector Store
+
+vector_store/
+chroma/
+*.sqlite3
+
+# Documents
+Documents/*.pdf
+
+# Logs
+logs/
+*.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Local Secrets
+secrets.json
+credentials.json
+aws_credentials.json
